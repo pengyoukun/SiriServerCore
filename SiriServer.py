@@ -10,6 +10,8 @@ import db
 import logging
 import sys
 
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
 
 try:    
     from twisted.internet import ssl
